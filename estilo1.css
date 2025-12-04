@@ -1,0 +1,45 @@
+.card {
+    background-color: #f2502c;
+    font-family: 'Times New Roman'
+}
+
+.G {
+    background-color: #eb9c4d;
+    text-align: center;
+}
+
+.C {
+    background-color: #eb9c4d;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin: auto;
+}
+
+body {
+    background-color: #f2502c;;
+}
+
+/* Barra de Navegacion */
+nav ul {
+    list-style: none;
+    background-color: #da1a29;
+    margin: 1px;
+    padding: 1px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 14px 20px;
+    font-family: 'serif';
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
