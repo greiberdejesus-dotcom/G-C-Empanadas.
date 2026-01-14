@@ -1,0 +1,88 @@
+body {
+    background-color: #f2502c;
+}
+
+header {
+    background-color: #eb9c4d;
+    color: black;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    
+}
+
+li a {
+    list-style: none;
+    background-color: #eb9c4d;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+a {
+     background-color: rgb(0, 0, 0);
+     color: #000000;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 8px;
+     font-size: 16px;
+     cursor: pointer;
+     transition: 0.0s;
+}
+
+
+/* Efecto al poner el mouse encima */
+.mi-boton:hover {
+    background-color: #eb9c4d;
+    transform: scale(1.02);
+    border-style: none;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(100px, 1fr));
+    gap: 2rem;
+    padding: 10px 20px;
+}
+
+.card {
+    background-color: rgb(215, 145, 23);
+    padding: 5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    text-align: center;
+    transition: transform 0.3s;
+    margin: 10cm;
+}
+
+.card:hover {
+    transform: scale(1.04)
+}
+
+.card img {
+    width: 35%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: auto;
+    transition: transfom 0.3s;
+
+}
+
+.card img:hover {
+    transform: scale(1.01);
+}
+
+.card h2 {
+    margin-bottom: 0.3rem;
+}
+
+.card a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
