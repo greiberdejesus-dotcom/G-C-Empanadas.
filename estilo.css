@@ -27,3 +27,22 @@ a:hover {
     transform: scale(1.15);
     border-style: none;
 }
+
+/* Barra de Navegacion */
+nav ul {
+    list-style: none;
+    background-color: #000511;
+    margin: 1px;
+    padding: 1px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.remo {
+    text-align: center;
+}
+
+.rema {
+    text-align: center;
+}
